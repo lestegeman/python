@@ -1,0 +1,38 @@
+<html>
+<head>
+<style type="text/css">
+body{background-color:#D2FFF0;}
+h1{font-family:arial; font-size:40px;}
+p{font-family:arial; font-size:20px;}
+</style>
+</head>
+<title> Top Songs</title>
+<body>
+<form method=POST action="http://cgi.soic.indiana.edu/~lestegem/music.cgi">
+<center>
+<h1> Top Songs</h1>
+</center>
+<hr>
+<p>Search for:
+</br>
+<select name=search_by>
+        <option>Top Songs
+        <option>Top Albums
+        <option>Top Music Videos
+</select></p>
+<p> Country:</br> <select name=country>
+        <option> United States
+        <option> Turkey
+        <option> India
+</select></p>
+
+<p> Number of top songs:</br> <select name= number>
+        <option> 10
+        <option> 25
+        <option> 50
+        <option> 100
+        <option> 200
+</select></p>
+<input type=submit value="Submit"></form>
+</body>
+</html>
